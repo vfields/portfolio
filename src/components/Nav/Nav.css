@@ -1,0 +1,5 @@
+.navigation {
+  border: 0.25em solid red;
+  display: flex;
+  justify-content: space-between;
+}
