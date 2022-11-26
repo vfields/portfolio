@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.intro {
+  font-size: 3rem;
+}
+
+.engineer {
+  color: #D1674D;
+  font-weight: bold!important;
+  font-family: "Anonymous Pro", monospace!important;
+  font-size: 2.5rem;
+  letter-spacing: 0.7rem!important;
+  overflow: hidden;
+  margin-top: -2%;
+  border-right: 0.1rem solid #3E3431;
+  white-space: nowrap;
+  animation: typewriter 4s steps(42) 1s 1 normal both,
+    blinkTextCursor 1s infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 19.75em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: #3E3431;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
