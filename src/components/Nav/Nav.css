@@ -2,4 +2,23 @@
   border: 0.25em solid red;
   display: flex;
   justify-content: space-between;
+  height: 4rem;
+  /* width: 95vw; */
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25%;
+  width: 12rem;
+}
+
+.icons img {
+  width: 3rem;
+  transition: 0.5s;
+}
+
+.icons img:hover {
+  width: 3.25rem;
+  transition: 0.5s;
 }
