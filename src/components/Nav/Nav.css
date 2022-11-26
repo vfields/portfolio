@@ -9,8 +9,9 @@
 .icons {
   display: flex;
   justify-content: space-between;
+  margin-right: 1%;
   padding: 0.25%;
-  width: 12rem;
+  width: 15rem;
 }
 
 .icons img {

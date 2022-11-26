@@ -1,0 +1,31 @@
+.about {
+  display: flex;
+  margin-left: 1%;
+}
+
+.about-text {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.15rem;
+  width: 35em;
+}
+
+.about a {
+  color: #CA3D33;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.4s ease-in-out;
+}
+
+.about a:hover {
+  color: #3E3431;
+  transition: 0.4s;
+}
+
+.about img {
+  border-radius: 15%;
+  margin-left: 1%;
+  width: 15rem;
+}
