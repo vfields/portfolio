@@ -6,7 +6,9 @@ html {
 }
 
 button {
-  background-color: #ECEFF1;
-  color: #263238;
   font-family: Montserrat, sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
 }
