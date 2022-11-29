@@ -10,9 +10,21 @@ h1 {
 }
 
 button {
+  background-color: #CA3D33;
+  border: 0.25rem solid #CA3D33;
+  border-radius: 0.5rem;
+  color: white;
   font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 1.75rem;
+  transition: 0.5s;
 }
 
 button:hover {
+  background-color: white;
+  border: 0.25rem solid #CA3D33;
+  color: #CA3D33;
   cursor: pointer;
+  padding: 0.5rem 3rem;
+  transition: 0.5s;
 }

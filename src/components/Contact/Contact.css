@@ -1,0 +1,26 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea {
+  border-radius: 0.35rem;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  padding: 0.5%;
+  margin: 0.5%;
+  width: 20rem;
+}
+
+textarea {
+  height: 10rem;
+}
+
+.user-msg {
+  color: #CA3D33;
+  font-size: 1.5rem;
+  text-align: center;
+}
