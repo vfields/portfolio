@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+.home {
+  display: flex;
+  justify-content: center;
+ }
+
+.home img {
+  width: 27em;
+}
+
+.intro-container {
+  width: 50em;
+}
+
+.name {
+  font-size: 3rem;
+}
+
+.engineer {
+  color: #CA3D33;
+  font-weight: bold;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 2.5rem;
+  letter-spacing: 0.7rem;
+  margin-top: -2%;
+}
+
+.intro {
+  font-size: 1.25rem;
+  margin-top: -1%;
+  width: 25em;
+}
+
+@media screen and (max-width: 80em) {
+  .intro-container {
+    width: 30em;
+  }
+}
+
+@media screen and (max-width: 64em) {
+  .home img {
+    margin-top: 2%;
+    width: 20em;
+  }
+}
+
+@media screen and (max-width: 57em) {
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home img {
+    width: 15em;
+  }
+}
+
+@media screen and (max-width: 33em) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .engineer {
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+  }
+
+  .intro {
+    width: 15em;
+  }
+
+  .intro-container {
+    width: 20em;
+  }
+}
+

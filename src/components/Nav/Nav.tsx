@@ -7,7 +7,8 @@ const resume = require('../../assets/resume.png');
 function Nav() {
   return (
     <nav className="navigation">
-      <div>Home | About | Projects | Skills | Contact</div>
+      <div>Contact Me</div>
+      <div>Home | About | Projects | Skills</div>
       <div className="icons">
         <a href="https://www.linkedin.com/in/victoria-ashley-fields/" target='_blank' rel='noopener'><img src={linkedIn} alt="LinkedIn icon"/></a>
         <a href="https://github.com/vfields" target='_blank' rel='noopener'><img src={gitHub} alt="GitHub icon"/></a>

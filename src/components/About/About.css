@@ -1,20 +1,16 @@
-.header {
-  font-size: 3rem;
-  margin-left: 1%;
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about {
   display: flex;
   align-items: center;
-  margin-top: -3%;
-  margin-left: 1%;
+  margin-top: -2%;
 }
 
 .about-text {
-  /* border: 1px solid red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-size: 1.15rem;
   margin-left: 2%;
   width: 35em;
@@ -35,4 +31,34 @@
 .about img {
   border-radius: 50%;
   width: 18rem;
+}
+
+@media screen and (max-width: 59em) {
+  .about-text {
+    width: 30em;
+  }
+}
+
+@media screen and (max-width: 52.5em) {
+  .about-text {
+    width: 25em;
+  }
+}
+
+@media screen and (max-width: 47em) {
+  .about {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .about-text {
+    width: 20em;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .about-text {
+    width: 15em;
+  }
 }
