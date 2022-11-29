@@ -19,51 +19,51 @@ function Skills() {
        <h1>Skills</h1>
        <div className="skills-grid">
         <div className="skill-container">
-          <img src={typescript} />
+          <img src={typescript} alt="typescript icon in burnt orange and white"/>
           <p>TypeScript</p>
         </div>
         <div className="skill-container">
-          <img src={javascript} />
+          <img src={javascript} alt="javascript icon in burnt orange and white"/>
           <p>JavaScript</p>
         </div>
         <div className="skill-container">
-          <img src={react} />
+          <img src={react} alt="react icon in burnt orange"/>
           <p>React</p>
         </div>
         <div className="skill-container">
-          <img src={html} />
+          <img src={html} alt="HTML icon in burnt orange and white"/>
           <p>HTML5</p>
         </div>
         <div className="skill-container">
-          <img src={css} />
+          <img src={css} alt="CSS icon in burnt orange and white"/>
           <p>CSS3</p>
         </div>
         <div className="skill-container">
-          <img src={mocha} />
+          <img src={mocha} alt="Mocha icon in burnt orange and white"/>
           <p>Mocha</p>
         </div>
         <div className="skill-container">
-          <img src={chai} />
+          <img src={chai} alt="Chai icon in burnt orange and white"/>
           <p>Chai</p>
         </div>
         <div className="skill-container">
-          <img src={cypress} />
+          <img src={cypress} alt="Cypress icon in burnt orange and white"/>
           <p>Cypress</p>
         </div>
         <div className="skill-container">
-          <img src={webpack} />
+          <img src={webpack} alt="Webpack icon in burnt orange and white"/>
           <p>Webpack</p>
         </div>
         <div className="skill-container">
-          <img src={git} />
+          <img src={git} alt="Git icon in burnt orange and white"/>
           <p>Git</p>
         </div>
         <div className="skill-container">
-          <img src={accessibility} />
+          <img src={accessibility} alt="Accessibility icon in burnt orange and white"/>
           <p>Accessibility</p>
         </div>
         <div className="skill-container">
-          <img src={responsive} />
+          <img src={responsive} alt="Responsive design icon in burnt orange and white"/>
           <p>Responsive Design</p>
         </div>
        </div>
