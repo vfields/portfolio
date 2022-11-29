@@ -1,3 +1,30 @@
+.contact-section h1 {
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1%;
+  width: 25rem;
+}
+
+.contact-text-container img {
+  margin-right: 10%;
+  width: 17rem;
+}
+
+.contact-text {
+  font-size: 1.25rem;
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -7,11 +34,12 @@ form {
 
 input,
 textarea {
+  border: 0.1rem solid #CA3D33;
   border-radius: 0.35rem;
   font-family: Montserrat, sans-serif;
   font-size: 1rem;
-  padding: 0.5%;
-  margin: 0.5%;
+  padding: 2%;
+  margin: 2%;
   width: 20rem;
 }
 
@@ -23,4 +51,20 @@ textarea {
   color: #CA3D33;
   font-size: 1.5rem;
   text-align: center;
+}
+
+@media screen and (max-width: 45em) {
+  .contact {
+    flex-direction: column;
+    margin-top: -5%;
+  }
+
+  .contact-text-container {
+    margin-right: 0;
+    width: 21rem;
+  }
+
+  .contact-text-container img {
+    display: none;
+  }
 }

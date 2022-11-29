@@ -16,18 +16,6 @@
   width: 35em;
 }
 
-.about a {
-  color: #CA3D33;
-  font-weight: 700;
-  text-decoration: none;
-  transition: color 0.4s ease-in-out;
-}
-
-.about a:hover {
-  color: #3E3431;
-  transition: 0.4s;
-}
-
 .about img {
   border-radius: 50%;
   width: 18rem;
