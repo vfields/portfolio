@@ -10,10 +10,10 @@ function App() {
   return (
     <main>
       <Nav />
-      {/* <Home />
-      <About />
-      <Skills /> */}
-      <Contact />
+      <Home />
+      {/* <About /> */}
+      {/* <Skills /> */}
+      {/* <Contact /> */}
     </main>
   );
 }
