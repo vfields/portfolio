@@ -4,7 +4,7 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 10rem);
   grid-gap: 5%;
   justify-content: center;
 }
@@ -26,16 +26,23 @@
   transition: 0.5s;
 }
 
-@media screen and (max-width: 32em) {
+@media screen and (max-width: 48em) {
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (max-width: 26em) {
+@media screen and (max-width: 34em) {
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 18em) {
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
