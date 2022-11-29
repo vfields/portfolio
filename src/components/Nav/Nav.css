@@ -15,11 +15,11 @@
 }
 
 .icons img {
-  width: 3rem;
+  width: 2.5rem;
   transition: 0.5s;
 }
 
 .icons img:hover {
-  width: 3.25rem;
+  width: 2.75rem;
   transition: 0.5s;
 }
