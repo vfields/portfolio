@@ -21,10 +21,10 @@ function App() {
         <Route exact path='/projects'>
           <Projects />
         </Route>
-        <Route exact path='/projects'>
+        <Route exact path='/skills'>
           <Skills />
         </Route>
-        <Route exact path='/projects'>
+        <Route exact path='/contact'>
           <Contact />
         </Route>
       </Switch>
