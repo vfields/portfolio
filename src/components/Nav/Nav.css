@@ -16,6 +16,22 @@
   word-spacing: 2rem;
 }
 
+.inactive {
+  color: #CA3D33;
+  padding: .25rem;
+  margin: 2%;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.inactive:hover {
+  color: #3E3431;
+}
+
+.active {
+  color: #3E3431;
+}
+
 .icons {
   display: flex;
   justify-content: space-between;
