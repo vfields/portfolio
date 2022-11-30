@@ -35,7 +35,13 @@ function Contact() {
   }
 
   const clearMsg = () => {
+    setError('');
     setSuccess('');
+  }
+
+  let disableBtn = false;
+  if (error || success) {
+    disableBtn = true;
   }
 
   return (
@@ -69,16 +75,22 @@ function Contact() {
             value={message}
             onChange={(event) => setMessage(event.target.value)} 
           />
-          <button type="submit">Send Message</button>
+          <button type="submit" disabled={disableBtn}>Send Message</button>
         </form>
       </div>
-      {error && <p className="user-msg">{error}</p>}
-          {success && 
-            <>
-              <p className="user-msg">{success}</p>
-              <button onClick={clearMsg}>OK</button>
-            </>
-          }
+      {/* {error && <p className="user-msg">{error}</p>} */}
+      {error && 
+        <div className="user-msg-container">
+          <p className="user-msg">{error}</p>
+          <button onClick={clearMsg}>OK</button>
+        </div>
+      }
+      {success && 
+        <div className="user-msg-container">
+          <p className="user-msg">{success}</p>
+          <button onClick={clearMsg}>OK</button>
+        </div>
+      }
     </section>
   );
 };

@@ -53,6 +53,13 @@ textarea {
   text-align: center;
 }
 
+.user-msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 45em) {
   .contact {
     flex-direction: column;
