@@ -1,4 +1,4 @@
-// import { useState } from 'react';
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
@@ -11,11 +11,23 @@ function App() {
   return (
     <main>
       <Nav />
-      {/* <Home /> */}
-      {/* <About /> */}
-      {/* <Projects /> */}
-      {/* <Skills /> */}
-      <Contact />
+      <Switch>
+        <Route exact path='/'>
+          <Home />
+        </Route>
+        <Route exact path='/about'>
+          <About />
+        </Route>
+        <Route exact path='/projects'>
+          <Projects />
+        </Route>
+        <Route exact path='/projects'>
+          <Skills />
+        </Route>
+        <Route exact path='/projects'>
+          <Contact />
+        </Route>
+      </Switch>
     </main>
   );
 }

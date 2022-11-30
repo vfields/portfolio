@@ -78,7 +78,6 @@ function Contact() {
           <button type="submit" disabled={disableBtn}>Send Message</button>
         </form>
       </div>
-      {/* {error && <p className="user-msg">{error}</p>} */}
       {error && 
         <div className="user-msg-container">
           <p className="user-msg">{error}</p>
