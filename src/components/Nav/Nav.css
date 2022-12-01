@@ -37,7 +37,7 @@
 
 .hamburger {
   display: none;
-  height: 1.5rem;
+  height: 1rem;
   position: absolute;
   right: 4%;
   padding: 0.25%;
@@ -46,7 +46,7 @@
 
 .hamburger:hover {
   cursor: pointer;
-  height: 1.75rem;
+  height: 1.25rem;
   transition: 0.5s;
 }
 
@@ -74,9 +74,23 @@
     font-size: 1rem;
     margin: 0 0.35rem;
   }
+
+  .icons {
+    width: 10rem;
+  }
+  
+  .icons img {
+    width: 2rem;
+    transition: 0.5s;
+  }
+  
+  .icons img:hover {
+    width: 2.25rem;
+    transition: 0.5s;
+  }
 }
 
-@media screen and (max-width: 42.25em) {
+@media screen and (max-width: 36.75em) {
   .navigation-menu {
     margin-top: 5%;
     margin-right: 1%;
