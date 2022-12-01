@@ -12,6 +12,7 @@ const webpack = require('../../assets/icons/webpack.png');
 const git = require('../../assets/icons/git.png');
 const accessibility = require('../../assets/icons/accessibility.png');
 const responsive = require('../../assets/icons/responsive.png');
+const agile = require('../../assets/icons/agile.png');
 
 function Skills() {
   return (
@@ -66,6 +67,10 @@ function Skills() {
           <img src={responsive} alt="Responsive design icon in burnt orange and white"/>
           <p>Responsive Design</p>
         </div>
+        {/* <div className="skill-container">
+          <img src={agile} alt="Agile icon in burnt orange and white"/>
+          <p>Agile Practices</p>
+        </div> */}
        </div>
     </section>
   );
