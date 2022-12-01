@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 7.5%;
+  margin-top: 15%;
 }
 
 .skill-container img {
@@ -27,7 +27,7 @@
   transition: 0.5s;
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 56.25em) {
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

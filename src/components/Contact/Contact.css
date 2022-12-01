@@ -60,7 +60,7 @@ textarea {
   align-items: center;
 }
 
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 56.25em) {
   .contact {
     flex-direction: column;
     margin-top: -5%;
