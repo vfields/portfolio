@@ -19,12 +19,6 @@
   width: 18rem;
 }
 
-/* @media screen and (max-width: 59em) {
-  .about-text {
-    width: 30em;
-  }
-} */
-
 @media screen and (max-width: 56.25em) {
   .about-text {
     width: 25em;

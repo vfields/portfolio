@@ -6,6 +6,7 @@ import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
+import BadUrl from '../BadUrl/BadUrl';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route exact path='/contact'>
           <Contact />
         </Route>
+        <Route component={BadUrl} />
       </Switch>
     </main>
   );

@@ -1,0 +1,31 @@
+.bad-url-section {
+  text-align: center;
+}
+
+.bad-url-section img {
+  align-self: center;
+  border-radius: 5%;
+  width: 40rem;
+}
+
+.bad-url-section p {
+  font-size: 1.25rem;
+}
+
+@media screen and (max-width: 45em) {
+  .bad-url-section img {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 36.25em) {
+  .bad-url-section img {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 22em) {
+  .bad-url-section img {
+    width: 15rem;
+  }
+}

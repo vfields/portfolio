@@ -96,7 +96,6 @@
   
   .navigation-menu ul {
     flex-direction: column;
-    /* margin-left: -5%; */
     position: absolute;
     right: 0;
     display: none;
