@@ -5,7 +5,7 @@
 .bad-url-section img {
   align-self: center;
   border-radius: 5%;
-  width: 40rem;
+  width: 40em;
 }
 
 .bad-url-section p {
@@ -20,12 +20,12 @@
 
 @media screen and (max-width: 36.25em) {
   .bad-url-section img {
-    width: 20rem;
+    width: 25rem;
   }
 }
 
 @media screen and (max-width: 22em) {
   .bad-url-section img {
-    width: 15rem;
+    width: 20rem;
   }
 }
