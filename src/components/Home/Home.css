@@ -3,18 +3,22 @@
 .home {
   display: flex;
   justify-content: center;
+  transition: 0.5s;
  }
 
 .home img {
   width: 27em;
+  transition: 0.5s;
 }
 
 .intro-container {
   width: 50em;
+  transition: 0.5s;
 }
 
 .name {
   font-size: 3rem;
+  transition: 0.5s;
 }
 
 .engineer {
@@ -24,17 +28,20 @@
   font-size: 2.5rem;
   letter-spacing: 0.7rem;
   margin-top: -2%;
+  transition: 0.5s;
 }
 
 .intro {
   font-size: 1.25rem;
   margin-top: -1%;
   width: 25em;
+  transition: 0.5s;
 }
 
 @media screen and (max-width: 80em) {
   .intro-container {
     width: 30em;
+    transition: 0.5s;
   }
 }
 
@@ -42,6 +49,7 @@
   .home img {
     margin-top: 2%;
     width: 20em;
+    transition: 0.5s;
   }
 }
 
@@ -49,29 +57,35 @@
   .home {
     flex-direction: column;
     align-items: center;
+    transition: 0.5s;
   }
 
   .home img {
     width: 15em;
+    transition: 0.5s;
   }
 }
 
 @media screen and (max-width: 33em) {
   .name {
     font-size: 2.5rem;
+    transition: 0.5s;
   }
 
   .engineer {
     letter-spacing: 0.3rem;
     font-size: 2rem;
+    transition: 0.5s;
   }
 
   .intro {
     width: 15em;
+    transition: 0.5s;
   }
 
   .intro-container {
     width: 20em;
+    transition: 0.5s;
   }
 }
 

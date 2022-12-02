@@ -3,6 +3,7 @@ import './App.css';
 import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
 import About from '../About/About';
+import Lacey from '../Lacey/Lacey';
 import Projects from '../Projects/Projects';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
@@ -18,6 +19,9 @@ function App() {
         </Route>
         <Route exact path='/about'>
           <About />
+        </Route>
+        <Route exact path='/lacey'>
+          <Lacey />
         </Route>
         <Route exact path='/projects'>
           <Projects />

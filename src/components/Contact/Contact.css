@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 
 .contact-text-container {
@@ -14,11 +15,13 @@
   align-items: center;
   margin-right: 1%;
   width: 25rem;
+  transition: 0.5s;
 }
 
 .contact-text-container img {
   margin-right: 10%;
   width: 17rem;
+  transition: 0.5s;
 }
 
 .contact-text {
@@ -64,14 +67,17 @@ textarea {
   .contact {
     flex-direction: column;
     margin-top: -5%;
+    transition: 0.5s;
   }
 
   .contact-text-container {
     margin-right: 0;
     width: 21rem;
+    transition: 0.5s;
   }
 
   .contact-text-container img {
     display: none;
+    transition: 0.5s;
   }
 }

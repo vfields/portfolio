@@ -7,6 +7,7 @@
   grid-template-columns: repeat(4, 10rem);
   grid-gap: 5%;
   justify-content: center;
+  transition: 0.5s;
 }
 
 .skill-container {
@@ -31,6 +32,7 @@
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    transition: 0.5s;
   }
 }
 
@@ -38,6 +40,7 @@
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    transition: 0.5s;
   }
 }
 
@@ -45,5 +48,6 @@
   .skills-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    transition: 0.5s;
   }
 }

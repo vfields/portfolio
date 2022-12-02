@@ -6,6 +6,7 @@
   position: absolute;
   right: 0;
   width: 24rem;
+  transition: 0.5s;
 }
 
 .r-flower {
@@ -13,6 +14,7 @@
   bottom: -35rem;
   left: 0;
   width: 19rem;
+  transition: 0.5s;
 }
 
 .project {
@@ -20,6 +22,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 5%;
+  transition: 0.5s;
 }
 
 .title-img-container {
@@ -34,6 +37,7 @@
 .project img {
   border-radius: 5%;
   width: 25rem;
+  transition: 0.5s;
 }
 
 .links {
@@ -42,11 +46,13 @@
 
 .project-text {
   width: 25rem;
+  transition: 0.5s;
 }
 
 .description {
   font-size: 1.075rem;
   margin-top: -2.5%;
+  transition: 0.5s;
 }
 
 .title {
@@ -62,10 +68,12 @@
 @media screen and (max-width: 82.8em) {
   .l-flower {
     display: none;
+    transition: 0.5s;
   }
   
   .r-flower {
     display: none;
+    transition: 0.5s;
   }
 }
 
@@ -76,19 +84,23 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 10%;
+    transition: 0.5s;
   }
 }
 
 @media screen and (max-width: 28.125em) {
   .project img {
     width: 21.5rem;
+    transition: 0.5s;
   }
 
   .project-text {
     width: 21.5rem;
+    transition: 0.5s;
   }
 
   .description {
     font-size: 1.05rem;
+    transition: 0.5s;
   }
 }

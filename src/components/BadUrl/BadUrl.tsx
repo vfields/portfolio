@@ -8,7 +8,7 @@ function BadUrl() {
       <h1>Uh oh!</h1>
       <img src={lacey} alt="Tori's dog Lacey wearing her pink vest in a creek on a hike" />
       <h2>That's not a valid URL.</h2>
-      <p>You did find a picture of Lacey, Tori's dog, though! Try going <a href="/">home</a> or another address.</p>
+      <p>You did find a picture of <a href="/lacey">Lacey</a>, Tori's dog, though! Try going <a href="/">home</a> or another address.</p>
     </section>
   );
 }

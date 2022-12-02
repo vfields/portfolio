@@ -6,6 +6,7 @@
   align-self: center;
   border-radius: 5%;
   width: 40em;
+  transition: 0.5s;
 }
 
 .bad-url-section p {
@@ -15,17 +16,20 @@
 @media screen and (max-width: 45em) {
   .bad-url-section img {
     width: 30rem;
+    transition: 0.5s;
   }
 }
 
 @media screen and (max-width: 36.25em) {
   .bad-url-section img {
     width: 25rem;
+    transition: 0.5s;
   }
 }
 
 @media screen and (max-width: 22em) {
   .bad-url-section img {
     width: 20rem;
+    transition: 0.5s;
   }
 }
