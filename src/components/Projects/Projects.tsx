@@ -1,7 +1,7 @@
 import './Projects.css';
 
-// consider making larger/better screen shots or gifs
-
+const halfFlower = require('../../assets/half-flower.png');
+const rHalfFlower = require('../../assets/r-half-flower.png');
 const findmyapi = require('../../assets/findmyapi.png');
 const rancid = require('../../assets/rancid.png');
 const fitlit = require('../../assets/fitlit.png');
@@ -10,10 +10,12 @@ function Projects() {
   return (
     <section className="projects-section">
       <h1>Projects</h1>
+      <img className="r-flower" src={rHalfFlower} />
+      <img className="l-flower" src={halfFlower} />
       <article className="project">
         <div className="title-img-container">
           <h3 className="title">Find My API</h3>
-          <img src={findmyapi} />
+          <img src={findmyapi} alt="preview of Find My API's search function"/>
         </div>
         <div className="project-text">
           <h4>Solo | 5 days</h4>
@@ -25,7 +27,7 @@ function Projects() {
       <article className="project">
         <div className="title-img-container">
           <h3 className="title">Rancid Tomatillos</h3>
-          <img src={rancid} />
+          <img src={rancid} alt="preview of Rancid Tomatillo's landing page" />
         </div>
         <div className="project-text">
           <h4>Paired | 6 days</h4>
@@ -37,7 +39,7 @@ function Projects() {
       <article className="project">
       <div className="title-img-container">
         <h3 className="title">FitLit</h3>
-        <img src={fitlit} />
+        <img src={fitlit} alt="preview of FitLit's user dashboard" />
       </div>
         <div className="project-text">
           <h4>Group | 10 days</h4>

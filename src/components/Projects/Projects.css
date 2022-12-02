@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.l-flower {
+  position: absolute;
+  right: 0;
+  width: 24rem;
+}
+
+.r-flower {
+  position: absolute;
+  bottom: -35rem;
+  left: 0;
+  width: 19rem;
+}
+
 .project {
   display: flex;
   justify-content: center;
@@ -44,6 +57,16 @@
 
 .tech-list {
   font-size: 0.9rem;
+}
+
+@media screen and (max-width: 82.8em) {
+  .l-flower {
+    display: none;
+  }
+  
+  .r-flower {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 54.75em) {

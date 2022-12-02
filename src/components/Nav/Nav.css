@@ -1,12 +1,10 @@
 .navigation {
-  /* border: 0.25em solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 4rem;
   margin-top: 1%;
   margin-bottom: 5%;
-  /* width: 99vw; */
 }
 
 .navigation-menu ul {
