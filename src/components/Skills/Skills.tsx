@@ -13,6 +13,9 @@ const git = require('../../assets/icons/git.png');
 const accessibility = require('../../assets/icons/accessibility.png');
 const responsive = require('../../assets/icons/responsive.png');
 const agile = require('../../assets/icons/agile.png');
+const cicd = require('../../assets/icons/cicd.png');
+const graphql = require('../../assets/icons/graphql.png');
+const circleci = require('../../assets/icons/circleci.png');
 
 function Skills() {
   return (
@@ -52,6 +55,10 @@ function Skills() {
           <p>Cypress</p>
         </div>
         <div className="skill-container">
+          <img src={cicd} alt="Infinity symbol representing CI/CD in burnt orange and white"/>
+          <p>CI/CD</p>
+        </div>
+        <div className="skill-container">
           <img src={webpack} alt="Webpack icon in burnt orange and white"/>
           <p>Webpack</p>
         </div>
@@ -67,10 +74,18 @@ function Skills() {
           <img src={responsive} alt="Responsive design icon in burnt orange and white"/>
           <p>Responsive Design</p>
         </div>
-        {/* <div className="skill-container">
+        <div className="skill-container">
           <img src={agile} alt="Agile icon in burnt orange and white"/>
           <p>Agile Practices</p>
-        </div> */}
+        </div>
+        <div className="skill-container">
+          <img src={graphql} alt="GraphQL icon in burnt orange and white"/>
+          <p>GraphQL</p>
+        </div>
+        <div className="skill-container">
+          <img src={circleci} alt="GraphQL icon in burnt orange and white"/>
+          <p>CircleCI</p>
+        </div>
        </div>
     </section>
   );
