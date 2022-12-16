@@ -15,7 +15,6 @@ const responsive = require('../../assets/icons/responsive.png');
 const agile = require('../../assets/icons/agile.png');
 const cicd = require('../../assets/icons/cicd.png');
 const graphql = require('../../assets/icons/graphql.png');
-const circleci = require('../../assets/icons/circleci.png');
 const tdd = require('../../assets/icons/tdd.png');
 
 function Skills() {
