@@ -16,6 +16,7 @@ const agile = require('../../assets/icons/agile.png');
 const cicd = require('../../assets/icons/cicd.png');
 const graphql = require('../../assets/icons/graphql.png');
 const circleci = require('../../assets/icons/circleci.png');
+const tdd = require('../../assets/icons/tdd.png');
 
 function Skills() {
   return (
@@ -43,6 +44,34 @@ function Skills() {
           <p>CSS3</p>
         </div>
         <div className="skill-container">
+          <img src={tdd} alt="An icon representing TDD's red, green, refactor in burnt orange and white"/>
+          <p>Test Driven Development</p>
+        </div>
+        <div className="skill-container">
+          <img src={git} alt="Git icon in burnt orange and white"/>
+          <p>Git/GitHub</p>
+        </div>
+        <div className="skill-container">
+          <img src={cicd} alt="Infinity symbol representing CI/CD in burnt orange and white"/>
+          <p>CI/CD</p>
+        </div>
+        <div className="skill-container">
+          <img src={agile} alt="Agile icon in burnt orange and white"/>
+          <p>Agile Practices</p>
+        </div>
+        <div className="skill-container">
+          <img src={accessibility} alt="Accessibility icon in burnt orange and white"/>
+          <p>Accessibility</p>
+        </div>
+        <div className="skill-container">
+          <img src={responsive} alt="Responsive design icon in burnt orange and white"/>
+          <p>Responsive Design</p>
+        </div>
+        <div className="skill-container">
+          <img src={webpack} alt="Webpack icon in burnt orange and white"/>
+          <p>Webpack</p>
+        </div>
+        <div className="skill-container">
           <img src={mocha} alt="Mocha icon in burnt orange and white"/>
           <p>Mocha</p>
         </div>
@@ -55,36 +84,8 @@ function Skills() {
           <p>Cypress</p>
         </div>
         <div className="skill-container">
-          <img src={cicd} alt="Infinity symbol representing CI/CD in burnt orange and white"/>
-          <p>CI/CD</p>
-        </div>
-        <div className="skill-container">
-          <img src={webpack} alt="Webpack icon in burnt orange and white"/>
-          <p>Webpack</p>
-        </div>
-        <div className="skill-container">
-          <img src={git} alt="Git icon in burnt orange and white"/>
-          <p>Git</p>
-        </div>
-        <div className="skill-container">
-          <img src={accessibility} alt="Accessibility icon in burnt orange and white"/>
-          <p>Accessibility</p>
-        </div>
-        <div className="skill-container">
-          <img src={responsive} alt="Responsive design icon in burnt orange and white"/>
-          <p>Responsive Design</p>
-        </div>
-        <div className="skill-container">
-          <img src={agile} alt="Agile icon in burnt orange and white"/>
-          <p>Agile Practices</p>
-        </div>
-        <div className="skill-container">
           <img src={graphql} alt="GraphQL icon in burnt orange and white"/>
           <p>GraphQL</p>
-        </div>
-        <div className="skill-container">
-          <img src={circleci} alt="GraphQL icon in burnt orange and white"/>
-          <p>CircleCI</p>
         </div>
        </div>
     </section>
