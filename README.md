@@ -67,7 +67,7 @@ This project focuses on collecting all of my professional projects, links, and d
 ## Features
 
 - Utilizes React Router to create a multi-page user experience from a single-page application and handle bad URLs
-- Features responsive and accessible design, displaying to mobile and passing both WAVE and Lighthouse accessibility audits
+- Features responsive and accessible UX/UI design, displaying to mobile and passing both WAVE and Lighthouse accessibility audits
 - Implements error handling and form validation alongside EmailJS
 
 ### Reflections
