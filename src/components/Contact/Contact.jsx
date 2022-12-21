@@ -50,7 +50,7 @@ function Contact() {
       <div className="contact">
         <div className="contact-text-container">
           <p className="contact-text">If you'd like to connect regarding an open position or a freelance project, I'm available to grab a coffee and chat!</p>
-          <p className="contact-text">You can send me a message here, on <a href="https://www.linkedin.com/in/victoria-ashley-fields/" target='_blank' rel="noreferrer">LinkedIn</a>, or email me directly: <a href="mailto:victoriaashleyfields@gmail.com">victoriaashleyfields@gmail.com</a>.
+          <p className="contact-text">You can send me a message here, on <a href="https://www.linkedin.com/in/victoria-ashley-fields/" target='_blank' rel="noreferrer">LinkedIn</a>, or <a href="mailto:victoriaashleyfields@gmail.com">email me</a> directly.
           </p>
           <img src={contactFlowers} alt="a collection of orange outlined flowers" />
         </div>
