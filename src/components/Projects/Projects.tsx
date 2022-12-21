@@ -10,7 +10,7 @@ const fitlit = require('../../assets/fitlit.png');
 function Projects() {
   return (
     <section className="projects-section">
-      <h1>Projects</h1>
+      <h1>Turing Projects</h1>
       <img className="r-flower" src={rHalfFlower} alt="the left half of a sunflower, outlined in burnt orange"/>
       <img className="l-flower" src={halfFlower} alt="the right half of a sunflower, outlined in burnt orange" />
       <article className="project">
