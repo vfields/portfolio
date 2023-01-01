@@ -46,7 +46,11 @@ function Nav() {
         </ul>
       </div>
       {expanded && <div className="dropdown-menu" ref={ref}>
-        <h1>Do I appear?</h1>
+        <span><NavLink exact to='/' className={expanded ? 'inactive' : 'inactive'}>Home</NavLink></span>
+        <span><NavLink exact to='/about' className='inactive'>About</NavLink></span>
+        <span><NavLink exact to='/projects' className='inactive'>Projects</NavLink></span>
+        <span><NavLink exact to='/skills' className='inactive'>Skills</NavLink></span>
+        <span><NavLink exact to='/contact' className='inactive'>Contact</NavLink></span>
       </div>}
     </nav>
   );
