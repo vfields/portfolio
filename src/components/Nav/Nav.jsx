@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
@@ -9,6 +9,24 @@ const resume = require('../../assets/resume.png');
 
 function Nav() {
   const [expanded, setExpanded] = useState(false);
+  const ref = useRef(null);
+  const hamburgRef = useRef();
+
+  useEffect(() => {
+    const listener = (event) => {
+      if (!ref.current || ref.current.contains(event.target) || hamburgRef.current.contains(event.target)) {
+        return;
+      }
+      setExpanded(false);
+    };
+    document.addEventListener("mousedown", listener);
+    document.addEventListener("touchstart", listener);
+
+    return () => {
+      document.removeEventListener("mousedown", listener);
+      document.removeEventListener("touchstart", listener);
+    }
+  }, [ref, setExpanded])
 
   return (
     <nav className="navigation">
@@ -17,8 +35,8 @@ function Nav() {
         <a href="https://github.com/vfields" target='_blank'  rel="noreferrer"><img src={gitHub} alt="GitHub icon"/></a>
         <a href="https://drive.google.com/file/d/1evYatitgq4YEryRDejnJkAv-0WzjCcdv/view?usp=sharing" target='_blank'  rel="noreferrer"><img src={resume} alt="Resume icon"/></a>
       </div>
-      <img onClick={() => setExpanded(!expanded)} className="hamburger" src={hamburger} alt="hamburger menu icon" />
-      <div className={expanded ? "navigation-menu expanded" : "navigation-menu"}>
+      <img onClick={() => setExpanded(!expanded)} className="hamburger" src={hamburger} alt="hamburger menu icon" ref={hamburgRef} />
+      <div className={"navigation-menu"}>
         <ul>
           <li><NavLink exact to='/' className={expanded ? 'inactive' : 'inactive'}>Home</NavLink></li>
           <li><NavLink exact to='/about' className='inactive'>About</NavLink></li>
@@ -27,6 +45,13 @@ function Nav() {
           <li><NavLink exact to='/contact' className='inactive'>Contact</NavLink></li>
         </ul>
       </div>
+      {expanded && <div className="dropdown-menu" ref={ref}>
+        <span><NavLink exact to='/' className={expanded ? 'inactive' : 'inactive'}>Home</NavLink></span>
+        <span><NavLink exact to='/about' className='inactive'>About</NavLink></span>
+        <span><NavLink exact to='/projects' className='inactive'>Projects</NavLink></span>
+        <span><NavLink exact to='/skills' className='inactive'>Skills</NavLink></span>
+        <span><NavLink exact to='/contact' className='inactive'>Contact</NavLink></span>
+      </div>}
     </nav>
   );
 }
