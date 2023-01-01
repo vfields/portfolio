@@ -33,7 +33,7 @@ function Nav() {
       <div className="icons">
         <a href="https://www.linkedin.com/in/victoria-ashley-fields/" target='_blank' rel="noreferrer"><img src={linkedIn} alt="LinkedIn icon"/></a>
         <a href="https://github.com/vfields" target='_blank'  rel="noreferrer"><img src={gitHub} alt="GitHub icon"/></a>
-        <a href="https://drive.google.com/file/d/1evYatitgq4YEryRDejnJkAv-0WzjCcdv/view?usp=sharing" target='_blank'  rel="noreferrer"><img src={resume} alt="Resume icon"/></a>
+        <a href="https://drive.google.com/file/d/1O-7xyTMAJUeofuPjoDTCWg33GCu5KFL_/view?usp=sharing" target='_blank'  rel="noreferrer"><img src={resume} alt="Resume icon"/></a>
       </div>
       <img onClick={() => setExpanded(!expanded)} className="hamburger" src={hamburger} alt="hamburger menu icon" ref={hamburgRef} />
       <div className={"navigation-menu"}>
