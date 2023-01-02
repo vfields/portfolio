@@ -32,7 +32,7 @@ function Projects() {
         </div>
         <div className="project-text">
           <h4>Solo | 6 days</h4>
-          <p className="description">Built utilizing a wireframe and Github projects to organize user personas, stories, and acceptance criteria, this responsive and accessible application allows users to search over 1,000 public APIs by keyword, category, and more. Users can save APIs of interest while they continue their search, or take a break with adorable dog pictures and videos!</p>
+          <p className="description">Built utilizing a wireframe and Github projects to organize user personas, stories, and acceptance criteria, this mobile-first, responsive, and accessible application allows users to search over 1,000 public APIs by keyword, category, and more. Users can save APIs while they continue their search, or take a break with adorable dog pictures and videos!</p>
           <p className="tech-list">TypeScript, React, HTML/JSX, Cypress, CSS, Git/GitHub, RESTful APIs, Accessibility, Responsive Design, Webpack</p>
           <span className="links"><a href="https://find-my-api.vercel.app/" target='_blank' rel="noreferrer">Live Preview</a> | <a href="https://github.com/vfields/find-my-api" target='_blank' rel="noreferrer">Code Base</a></span>
         </div>
